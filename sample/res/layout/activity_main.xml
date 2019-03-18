@@ -8,7 +8,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center_horizontal"
-        tools:context=".MainActivity" >
+        tools:context=".java.com.anjlab.android.iab.v3.MainActivity" >
 
         <TextView
             android:id="@+id/titleTextView"
