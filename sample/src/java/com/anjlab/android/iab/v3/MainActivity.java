@@ -25,7 +25,6 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.anjlab.android.iab.v3.sample2.R;
 
 import java.com.anjlab.android.iab.v3.util.BillingProcessor;
 import java.com.anjlab.android.iab.v3.util.SkuDetails;
@@ -38,7 +37,7 @@ public class MainActivity extends Activity {
 
     // PRODUCT & SUBSCRIPTION IDS
     private static final String PRODUCT_ID = "android.test.purchased";
-    private static final String SUBSCRIPTION_ID = "com.anjlab.test.iab.subs1";
+    private static final String SUBSCRIPTION_ID = "android.test.purchased";
     private static final String LICENSE_KEY = null; // PUT YOUR MERCHANT KEY HERE;
     // put your Google merchant id here (as stated in public profile of your Payments Merchant Center)
     // if filled library will provide protection against Freedom alike Play Market simulators
